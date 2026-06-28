@@ -1,0 +1,31 @@
+Student Record Management System Report
+
+Program Design:
+The system is a menu-driven Python application for managing student records. It uses a CSV file (students.csv) for core student information like registration number, name, age, and grade. Additional details such as address, contact, and program are stored in a JSON file (students.json) keyed by registration number. This separation allows efficient handling of structured data in CSV and flexible additional info in JSON.
+
+Key Functions:
+- initialize_files(): Creates CSV and JSON files if they don't exist.
+- add_student(): Prompts for and validates input, saves to both files.
+- view_students(): Displays all students with their details.
+- search_student(): Finds a student by reg_number using custom exception if not found.
+- update_student(): Allows partial updates to records.
+- delete_student(): Removes student from both files.
+- main_menu(): Handles user navigation.
+
+Exception Handling Strategy:
+- Custom exception: StudentNotFoundError for search, update, delete when record missing.
+- try-except blocks for file I/O, input validation (ValueError), and general errors.
+- finally blocks ensure operation completion messages.
+- Logging captures all actions and errors.
+
+Input Validation:
+- Checks for empty fields, negative age, duplicate reg_numbers.
+- Uses strip() for cleaning inputs.
+
+Testing Results:
+- Tested add, view, search, update, delete operations.
+- Verified error handling with invalid inputs and non-existent students.
+- Log file records actions successfully.
+- Sample data loaded and manipulated without data corruption.
+
+The program is robust, user-friendly, and demonstrates file handling, exception management, and logging effectively.

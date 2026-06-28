@@ -1,0 +1,22 @@
+{
+    "24u001": {
+        "address": "123 Main St, Cityville",
+        "contact": "123-456-7890",
+        "program": "Computer Science"
+    },
+    "24u002": {
+        "address": "456 Oak Ave, Townsville",
+        "contact": "987-654-3210",
+        "program": "Business Administration"
+    },
+    "24u003": {
+        "address": "789 Pine Rd, Villagetown",
+        "contact": "555-123-4567",
+        "program": "Engineering"
+    },
+    "24u8793": {
+        "address": "KAMPALA",
+        "contact": "234700000",
+        "program": "BSSE"
+    }
+}

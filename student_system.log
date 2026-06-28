@@ -1,0 +1,18 @@
+2026-06-28 22:56:00,123 - INFO - Initialized students.csv
+2026-06-28 22:56:00,456 - INFO - Initialized students.json
+2026-06-28 22:57:10,789 - INFO - Student added: 24u004
+2026-06-28 22:57:15,012 - INFO - Viewed all students
+2026-06-28 22:57:20,345 - INFO - Student with reg_number 24u001 found and displayed
+2026-06-28 22:57:25,678 - INFO - Student updated: 24u002
+2026-06-28 22:57:30,901 - INFO - Student deleted: 24u003
+2026-06-28 22:57:35,234 - WARNING - Invalid menu choice: 99
+2026-06-28 22:57:40,567 - INFO - Student with reg_number 24u999 not found.
+2026-06-28 22:57:45,890 - ERROR - Error in add_student: Registration number cannot be empty.
+2026-06-28 22:57:50,123 - INFO - System exited.
+2026-06-28 23:18:51,633 - INFO - Added student to CSV: 24u8793
+2026-06-28 23:18:51,635 - INFO - Saved additional details to JSON
+2026-06-28 23:18:51,636 - INFO - Student added: 24u8793
+2026-06-28 23:19:29,811 - INFO - Student with reg_number 24U001 not found.
+2026-06-28 23:19:42,179 - INFO - Student deleted: 24u001
+2026-06-28 23:19:59,962 - INFO - System exited.
+2026-06-28 23:29:40,458 - WARNING - Program interrupted by user.
